@@ -1,0 +1,36 @@
+.form__body {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	font-size: 20px;
+	color: white;
+	input {
+		background-color: transparent;
+		padding: 10px 5px;
+		border: 1px solid white;
+		border-radius: 10px;
+		transition: 1s;
+	}
+	input:focus {
+		outline: none;
+		border-color: rgb(158, 98, 254);
+		transition: 0.5s;
+	}
+	h2 {
+		font-size: 26px;
+		color: rgb(158, 98, 254);
+	}
+	.form__btn {
+		background-color: transparent;
+		border: 1px solid white;
+		width: 30%;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 1s;
+	}
+	.form__btn:hover {
+		color: rgb(158, 98, 254);
+		border-color: rgb(158, 98, 254);
+		transition: 1s;
+	}
+}
